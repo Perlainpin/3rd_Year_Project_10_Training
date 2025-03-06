@@ -15,6 +15,9 @@ protected:
 	UPROPERTY(EditAnywhere, meta = (BindWidget))
 	class UImage* _Crosshair;
 
+	UPROPERTY(EditAnywhere, meta = (BindWidget))
+	class UImage* _DroneCam;
+
 public:
 	void SetCrosshairColor(bool IsColliding);
 };
